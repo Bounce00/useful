@@ -32,3 +32,6 @@ while(k<=8192)
    k=k+1;
 end
 
+//read prn
+sig = xlLoadChipScopeData('data.prn');
+
